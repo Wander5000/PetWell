@@ -15,6 +15,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 
 header a{
@@ -36,16 +37,20 @@ header nav ul li{
     list-style: none;
 }
 
+.EspacioH{
+    margin: 80px;
+}
+
 footer{
     background-color: rgb(92, 150, 172);
-    height: 150px;
+    height: 250px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 30px;
     margin-top: 20px;
     bottom: 0px;
 }
 
-footer h4,footer h6{
+footer h4,footer h5, footer h6{
     color: rgb(247, 247, 247);
 }
 
