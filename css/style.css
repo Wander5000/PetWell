@@ -21,11 +21,13 @@ header{
 header a{
     text-decoration: none;
     color: rgb(247, 247, 247);
-    margin-right: auto;
+    margin-right: 4vh;
+    font-size: 20px;
 }
 
 header nav{
     margin-right: 50px;
+    padding-top: 2vh;
 }
 
 header nav ul{
@@ -39,6 +41,22 @@ header nav ul li{
 
 .EspacioH{
     margin: 80px;
+}
+
+.Contenido{
+    padding: 2%;
+}
+
+.Contenido section{
+    border-bottom: 2px solid rgb(3, 64, 118);
+    padding-bottom: 30px;
+    margin: 2%;
+}
+
+.Contenido .Registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer{

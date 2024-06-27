@@ -14,61 +14,111 @@
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Acerca</a></li>
-                <li><a href="#">Reseñas</a></li>
+                <li><a href="index.html#Reseñas">Reseñas</a></li>
+                <li><a href="index.html#Registro">Registro</a></li>
             </ul>
         </nav>
     </header>
     <div class="EspacioH"></div>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/Reseña1.png" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Elsa Ludo</h5>
-              <p class="card-text">Desde que llego este aplicativo a mi vida,
+    <div class="Contenido">
+      <section></section>
+      <section id="Reseñas">
+        <h1>Las Reseñas Más Recientes</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/Reseña1.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Elsa Ludo</h5>
+                <p class="card-text">Desde que llego este aplicativo a mi vida,
                 todo ha sido mucho más sencillo con los cuidados que le brindo a mi
                 peludito, Ojala mas personas sepan de esta aplicacion y la aprovechen
                 al maximo, 5 estrellas se llava por mi parte.
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Publicado hace unas Horas</small>
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Publicado hace unas Horas</small>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/Reseña2.png" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Aitor Tilla</h5>
-              <p class="card-text">Esto es increible, con esta aplicacion ya no
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/Reseña2.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Aitor Tilla</h5>
+                <p class="card-text">Esto es increible, con esta aplicacion ya no
                 se me olvida almentar a mi gato cada que salgo del trabajo ademas
                 de permitirme estar mas conectado a el, ademas de poder pedir juguetes
                 y acompañamiento para mi michi, totalmente recomendada esta app.
-              </p>
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Publicado hace 47 minutos</small>
+              </div>
             </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Publicado hace 47 minutos</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/Reseña3.png" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Lola Mento</h5>
-              <p class="card-text">Me sorprende que no sabia de esto antes!,
+         </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/Reseña3.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Lola Mento</h5>
+                <p class="card-text">Me sorprende que no sabia de esto antes!,
                 es la mejor app que nunca he descargado, puedo monitorear a mi
                 Loro, tambien llevarlo al veterinario mas cercano y estar siempre
                 al tanto de el, nesecito más aplicaciones asi en mi vida, le doy
                 un 10/10, Ojala tenga mas actualizaciones.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Publicado hace 5 minutos</small>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Publicado hace 5 minutos</small>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section class="Registro" id="Registro">
+        <h1>Registrate y recibe mas noticias!</h1>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Donde Vives?</label>
+            <input type="text" class="form-control" id="inputAddress">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">Nombre de la Mascota</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-6">
+            <label for="inputState" class="form-label">Mascota</label>
+            <select id="inputState" class="form-select">
+              <option selected>Seleccione una opcion...</option>
+              <option>Perro</option>
+              <option>Gato</option>
+              <option>Pajaro</option>
+              <option>Pescado</option>
+              <option>Persona</option>
+              <option>Masapan</option>
+            </select>
+          </div>
+
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">Acepto TyC</label>
+            </div>
+          </div>
+          <div class="col-6">
+            <button type="submit" class="btn btn-primary">Registro</button>
+          </div>
+        </form>
+      </section>
+    </div>
     <footer>
         <h4>Visita Nuestras Redes!</h6>
         <img src="img/Facebook.png">
