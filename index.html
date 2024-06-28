@@ -21,9 +21,24 @@
     </header>
     <div class="EspacioH"></div>
     <div class="Contenido">
-      <section id="Inicio"></section>
+      <section id="Inicio" class="Inicio">
+        <img src="img/LogoTexto.png" class="Logo">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-6">
+              <h1 class="Titulo">Cuida a Tus mascotas con PetWell!</h1>
+            </div>
+            <div class="col-6"><h4>Somos la mejor opcion, para el cuidado de tu mascota</h4></div>
+        
+            <!-- Force next columns to break to new line at md breakpoint and up -->
+            <div class="w-100 d-none d-md-block"></div>
+            <div class="col-6"><img src="img/Mascotas.png" width="100%"></div>
+            <div class="col-6"><img src="img/Download.png" width="70%"></div>
+          </div>
+        </div>
+      </section>
       <section class="Acerca" id="Acerca">
-        <h1>Acerca de Nosotros</h1>
+        <h1 class="Titulo">Acerca de Nosotros</h1>
         <div class="container text-center">
           <div class="row">
             <div class="col-6">
@@ -71,8 +86,8 @@
           </div>
         </div>
       </section>
-      <section id="Reseñas"><title>Reseñas</title>
-        <h1>Las Reseñas Más Recientes</h1>
+      <section id="Reseñas">
+        <h1 class="Titulo">Las Reseñas Más Recientes</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100">
@@ -105,7 +120,7 @@
                 <small class="text-body-secondary">Publicado hace 47 minutos</small>
               </div>
             </div>
-         </div>
+          </div>
           <div class="col">
             <div class="card h-100">
               <img src="img/Reseña3.png" class="card-img-top">
@@ -125,7 +140,7 @@
         </div>
       </section>
       <section class="Registro" id="Registro">
-        <h1>Registrate y recibe mas noticias!</h1>
+        <h1 class="Titulo">Registrate y recibe mas noticias!</h1>
         <form class="row g-3">
           <div class="col-md-6">
             <label for="inputCity" class="form-label">Nombre</label>

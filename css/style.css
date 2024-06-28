@@ -39,6 +39,10 @@ header nav ul li{
     list-style: none;
 }
 
+.Titulo{
+    color: rgb(92, 150, 172)    ;
+}
+
 .EspacioH{
     margin: 80px;
 }
@@ -51,6 +55,12 @@ header nav ul li{
     border-bottom: 2px solid rgb(3, 64, 118);
     padding-bottom: 30px;
     margin: 2%;
+}
+
+.Inicio .Logo{
+    margin-left: 70vh;
+    margin-bottom: 35px;
+    width: 30vh;
 }
 
 section h1{
